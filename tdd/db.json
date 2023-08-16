@@ -1,0 +1,21 @@
+{
+    "cities": [
+        {
+            "name": "New York",
+            "temperature": 72
+        },
+        {
+            "name": "Los Angeles",
+            "temperature": 85
+        },
+        {
+            "name": "Madhubani",
+            "temperature": 65
+        },
+        {
+            "name":"patna",
+            "temperature":89
+        }
+        
+    ]
+}
