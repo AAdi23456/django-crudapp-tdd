@@ -10,10 +10,3 @@ def get_cite(request, city):
                 return JsonResponse(city_data)
         return JsonResponse({"msg": "data not found!"})
 
-def create_data(request, city):
-    with open("tdd\db.json") as json_file:
-        data = json.load(json_file)
-        for city_data in data["cities"]:
-            if city_data["name"] == city:
-                return JsonResponse(city_data)
-        return JsonResponse({"msg": "data not found!"})
